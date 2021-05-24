@@ -1,0 +1,22 @@
+{
+  "home": "Home",
+  "persons": "Persons",
+  "search": "Search Person",
+
+  "name1": "Vladimir Alexandrovich Orlov",
+  "name2": "Maisey Zalmanavich Beray",
+  "name3": "Olga Dashuk",
+  "name4": "Alexey Poluyan",
+  "name5": "Mikhail Mikalayevich Ptashuk",
+  "name6": "Anatoly Antonovich Schneider",
+
+  "title": "Blog about belarussian film directors",
+  "text": "Blog about belarussian film directors, created as RPI-lab3 by Rafeev Pavel, Nikita Kolodko and Vanya Zelezinsky from group 951008.",
+  "personality": "Personality of the day",
+  "authors": "Authors:",
+  "biography": "Biography",
+  "galery": "Galery",
+  "map": "Map",
+  "video": "Video about",
+  "search": "Search"
+}
