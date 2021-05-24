@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rpi-3/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/rpi-3/static/js/main.3da9566f.chunk.js",
-    "main.js.map": "/rpi-3/static/js/main.3da9566f.chunk.js.map",
+    "main.js": "/rpi-3/static/js/main.eb4d8021.chunk.js",
+    "main.js.map": "/rpi-3/static/js/main.eb4d8021.chunk.js.map",
     "runtime-main.js": "/rpi-3/static/js/runtime-main.d99487f7.js",
     "runtime-main.js.map": "/rpi-3/static/js/runtime-main.d99487f7.js.map",
     "static/css/2.019baa36.chunk.css": "/rpi-3/static/css/2.019baa36.chunk.css",
@@ -32,6 +32,6 @@
     "static/css/2.019baa36.chunk.css",
     "static/js/2.32999bcf.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.3da9566f.chunk.js"
+    "static/js/main.eb4d8021.chunk.js"
   ]
 }
