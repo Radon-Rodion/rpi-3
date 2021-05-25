@@ -1,25 +1,28 @@
 [
   {
-    "name": "Vladimir Alexandrovich Orlov",
-    "years": "(1965 - our days)",
-    "bio": "Vladimir Alexandrovich Orlov (born January 6, 1938, Baku, Azerbaijan SSR) is a Belarusian film director, screenwriter, and writer.",
+    "name": "Владимир Александрович Орлов",
+    "years": "(1909 - 2003)",
+    "bio": "Владимир Александрович Орлов родился 6 января 1938 года в азербайджанской столице - Баку. ",
     "fullBio":{
-      "date1": "11/2010 – Present",
-      "title1": "Title, Company",
-      "bio1": "Est incididunt sint eu minim dolore mollit velit velit commodo ex nula exercitation. Veniam velit adipisicing anim excepteur nostrud magna  nostrud aliqua dolor. Sunt aute est duis ut nula officia irure  reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem  est.",
-      "date2": "04/2009 – 11/2010",
-      "title2": "Title2, Company",
-      "bio2": "Est2 incididunt sint eu minim dolore mollit velit velit commodo ex nula exercitation. Veniam velit adipisicing anim excepteur nostrud magna  nostrud aliqua dolor. Sunt aute est duis ut nula officia irure  reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem  est.",
-      "date3": "11/2008 – 04/2009",
-      "title3": "Title3, Company",
-      "bio3": "Est3 incididunt sint eu minim dolore mollit velit velit commodo ex nula exercitation. Veni",
-      "date4": "08/2008 – 11/2008",
-      "title4": "Title4, Company",
-      "bio4": "Est4 incididunt sint eu minim dolore mollit velit velit commodo ex nula exercitation. Veni"
+      "date1": "2002 - Сейчас",
+      "title1": "Часть 1, Наши дни",
+      "bio1": "Орлов продолжает творить, писать книги и сценарии, а также снимать кино. «Аргенцінскі сіндром. У пошуках раю» (2012), «Пясняр. Сэрцам і думамі» (2017), Он смеялся последним: фантазия на тему документов: повесть (2016), Имена и фамилии подлинные : откроешь ― не оторвешься! : услышанное, увиденное, познанное, домысленное (2018) - все, что было создано за это время, но Владимир Александрович не намерен останавливаться",
+
+      "date2": "1963 – 2002",
+      "title2": "Часть 2, Работа на \"Телефильм\"",
+      "bio2": "Гостелерадио РБ, т/о \"Телефильм\", кинорежиссер-постановщик высшей категории. За это время были сняты: «Вясёлы цягнік» (1965), «Канцэрт майстроў мастацтваў» (1965), «Канцэрт аркестру Б. Райскага», «Канцэрт Магілёўскага ансамблю танцу» (усе — 1966), «Канцэрт квартэту арфаў», «Канцэртная праграма», «Чаму ж нам не пець!..» (усе — 1968), Песняры» (1971), «Суботы з дзядзькам Монічам» (1975), «Верасы» (1977), «Тры тысячы песняў» (1980), «Ты адно каханне» (1980), «Фантазія на тэму…» (1981), «Канцэрт майстроў мастацтваў» (1982), «І песня ўзлятае сама» (1982), «Купалінка» (1983), «А таксама цырк» (1984), «Жаваронкі, прыляціце» (1984), «Варыяцыі на балетныя тэмы», «Лёгкі хлеб» (усе — 1986), «Свята» (1988), «Хэпі энд» (1991), «Хор» (1993)",
+
+      "date3": "1956 – 1963",
+      "title3": "Часть 3, Учеба",
+      "bio3": "В 1956 году окончил школу с медалью и решил быть режиссерам. Попал помощником на киностудию \"Беларусьфильм\", где до 1959 работал ассистентом режиссёра, а после режиссёром-практикантом. В 1958—1963 учился на режессёрском факультете Белорусского государственного театрально-художественного института.",
+
+      "date4": "01/1938 – 1956",
+      "title4": "Часть 4, Детство",
+      "bio4": "Ростила его бабушка, мать отца, так как отец и мать были постоянно на работе. Она увлекала его невероятно интересными рассказами, поэтому после, когда отец собрался уезжать из страны в Беларусь, вместе со своей матерью, тот неприменно согласился поехать вместе с ними."
     },
-    "place":{"lat":53.2574801, "lng":26.3637479},
-    "video":"",
-    "photoTitles":["photo1"]
+    "place":{"lat" : 53.902284, "lng" : 27.561831},
+    "video":"https://youtu.be/68-ALObWulU",
+    "photoTitles":[".\\Photos\\Orlov\\orlov-1.jpg, .\\Photos\\Orlov\\orlov-2.jpg, .\\Photos\\Orlov\\orlov-3.jpg, .\\Photos\\Orlov\\orlov-4.jpg, .\\Photos\\Orlov\\orlov-5.jpg"]
   },
   {
     "name": "Михаил Семенович Беров",
