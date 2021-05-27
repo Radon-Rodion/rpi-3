@@ -50,48 +50,54 @@
     "photoTitles":[".\\Photos\\Ptashuk\\beroy-1.jpg, .\\Photos\\Ptashuk\\beroy-2.jpg"]
   },
   {
-    "name": "Olga Dashuk",
-    "years": "(1995 - our days)",
-    "bio": "Olga Dashuk is a Belarusian film director and screenwriter of documentary films, journalist and film critic. Participant and prize-winner of international film festivals, including \"Listapad\", \"BelarusDocs\", \"IDFA\", \"DOK Leipzig\", \"Cinema du Reel\" (Paris), \"Silverdocs\" (Washington),\" Rotterdam IFF\", \"HotDocs\" (Toronto), \"Prix Europa\" (Berlin), \"Krakow IFF\" (Poland). Member of the film festival jury»Cinema Perpetum mobile\". He is a member of the Belarusian Association of Journalists.",
+    "name": "Ольга Дашук",
+    "years": "- Наши дни",
+    "bio": "Ольга Дашук — беларуская кинорежиссёр и сценарист документальных фильмов, журналистка и кинокритик. Участница и призёр международных кинофестивалей, в том числе «Ноябрь», «BelarusDocs», «IDFA», «DOK Leipzig»,  «Cinema du Reel», «Silverdocs», «Rotterdam IFF», «HotDocs»,«Prix Europa», «Krakow IFF». Член жюри кинофестиваля «Синема Перпетум Мобиле». Друг Беларуской Ассоциации журналистов.",
     "fullBio":{
       "date1": "",
-      "title1": "",
-      "bio1": "",
-      "date2": "",
-      "title2": "",
-      "bio2": "",
-      "date3": "",
-      "title3": "",
-      "bio3": "",
-      "date4": "",
-      "title4": "",
-      "bio4": ""
+      "title1": "Часть 1, Сегодня",
+      "bio1": "На «Лістападзе-2012» лента также получила приз. На кинофоруме «Золотой Витязь» - серебряный приз. «Для документального кино живой человек всегда в центре внимания. В советском кино, несмотря на все его достижения, были страшные идеологические шоры. Дело творца, его признания или непризнания, это вечная вещь, ведь жизнь режиссера состоит из постоянного выбора», - говорит Ольга Дашук. 2020 - Я возвращался домой, 2019 - Полоцкий вальс, 2018 - Единственная такая, 2017 - Портрет",
+
+      "date2": "2013 - 2017",
+      "title2": "Часть 2, ",
+      "bio2": "Фильм Ольги «Кинолюбитель. Осенний сон» был представлен на Краковском фестивале, на фестивале «SilverDocs» в Вашингтоне (туда раньше не попадали картины наших режиссеров), съездил он и на берлинский фестиваль «Prix Europa», где определяется лучшая европейская кинопродукция. Произведения: 2017 - Сергей Плыткевич. Человек с фотоаппаратом, 2017 - Янка Купала, 2015 - Кревский замок, 2015 - Педагогическая поэма, 2014 - Не один",
+
+      "date3": "2009 - 2013",
+      "title3": "Часть 3, Белоруская коллегия",
+      "bio3": "Ольга Дашук была преподавателем в белорусской коллегии в 1999-2006 г, вела зянатия по истории американских СМИ, а также истории и теории фильмов. Работала журналисткой в газете «Народная Воля», а также кинокритиком журнала «Мастацтва» 2013 - Стародавние танцы, 2012 - Варвараўская свечка, 2011 - Три километра до неба, 2011 - Осенний сон, 2010 - Мастер, 2010 - Беловежская земля - работы за этот промежуток времени",
+
+      "date4": "2003 - 2009",
+      "title4": "Часть 4, Начало",
+      "bio4": "Ольга Дашук выпускница Беларусской Акадэмии искусств, театрального отделения, по специальности режессура. В студии «Беларусьфильм» работала режиссёром и сценаристом в 1995-2011 г. Работы за данное время: 2009 - Ночь коротка..., 2008 - Минуты жизни, 2007 - Вальс, 2006 - Леонид Левин. Война и любовь, 2003 - Мы жывём на краю"
     },
-    "place":{"lat":53.2574801, "lng":26.3637479},
-    "video":"",
-    "photoTitles":[]
+    "place":{"lat" : 54.311208, "lng" : 26.282280},
+    "video":"https://www.youtube.com/watch?v=r08w_Jt8EYM",
+    "photoTitles":[".\\Photos\\Dashuk\\Dashuk-1.jpg, .\\Photos\\Dashuk\\Dashuk-2.jpg, .\\Photos\\Dashuk\\Dashuk-3.jpg"]
   },
   {
-    "name": "Alexey Poluyan",
-    "years": "(1989 - our days)",
-    "bio": "Alexey Poluyan (born October 18, 1989, Baranovichi) is a Belarusian documentary and feature film director, participant of international film festivals.",
+    "name": "Алексей Полуян",
+    "years": "1989- Наши дни",
+    "bio": "Алексей Полуян (18 октября 1989, Барановичи) — беларуский кинорежиссёр документальных и художественных фильмов, участник международных кинофестивалей.",
     "fullBio":{
-      "date1": "",
-      "title1": "",
-      "bio1": "",
-      "date2": "",
-      "title2": "",
-      "bio2": "",
-      "date3": "",
-      "title3": "",
-      "bio3": "",
-      "date4": "",
-      "title4": "",
-      "bio4": ""
+      "date1": "2019 - Сейчас",
+      "title1": "Часть 1, А что сейчас?",
+      "bio1": " Сейчас Полуян снимает кино. Его короткометражный фильм «Озеро радости» по мотивам романа Виктора Мартиновича стал призёром более 30 международных кинофестивале",
+
+      "date2": "2017 - 2019",
+      "title2": "Часть 2, Начало карьеры",
+      "bio2": "За это время были сняты: 2019 - Озеро радости, 2018 - Нарушение спокойствия, 2017 - Сторона женщин, 2015 - Возврат",
+
+      "date3": "2013 - 2017",
+      "title3": "Часть 3, Путь режиссера",
+      "bio3": "В 2013 году поступил на факультет кино и тэлебачаньня Академии искусств в Касселе в мастерскую Яны Друзь. Его первая картина - \"София\". Вышла она в 2013 году.",
+
+      "date4": "- 2013",
+      "title4": "Часть 4, Взросление",
+      "bio4": "Закончил барановичскую гимназию №4. В 2012 году закончил Беларуский государственный ўнівэрсытэт информатики и радиоэлектроники.  Работал на Travel Solutions на проекте Thomas Cook, после перешёл на шведский проект Resia. После окончания вуза Алексей отработал в EPAM два года."
     },
-    "place":{"lat":53.2574801, "lng":26.3637479},
-    "video":"",
-    "photoTitles":[]
+    "place":{"lat" : 54.311208, "lng" : 26.282280},
+    "video":"https://youtu.be/jmcbCNRzc04",
+    "photoTitles":[".\\Photos\\Paluyan\\Paluyan-1.jpg, .\\Photos\\Paluyan\\Paluyan-2.jpg, , .\\Photos\\Paluyan\\Paluyan-3.jpg"]
   },
     {
       "name": "Михаил Николаевич Пташук",
@@ -119,25 +125,28 @@
       "photoTitles":[".\\Photos\\Ptashuk\\ptashuk-1.jpg, .\\Photos\\Ptashuk\\ptashuk-2.jpg, .\\Photos\\Ptashuk\\ptashuk-3.jpg, .\\Photos\\Ptashuk\\ptashuk-4.jpg, .\\Photos\\Ptashuk\\ptashuk-5.jpg, .\\Photos\\Ptashuk\\ptashuk-6.jpg, .\\Photos\\Ptashuk\\ptashuk-7.jpg"]
     },
   {
-    "name": "Anatoly Antonovich Schneider",
-    "years": "(1930 - our days)",
-    "bio": "Anatoly Antonovich Schneider (13 October 1930, Porechye village, Tolochinsky district, Vitebsk region) is a Belarusian journalist, local historian, and film director. Member of the Union of Journalists of the USSR( 1991), member of the Belarusian Association of UNESCO Clubs.",
+    "name": "Шнейдер Анатолий Антонович",
+    "years": "1930 - Сегодня",
+    "bio": "Шнейдер Анатолий Антонович — член Союза журналистов, краевед-исследователь, историограф, культуролог, публицист. Один из старейших кинолюбителей республики. Автор кинолетописи толочинского края. Лауреат и дипломант многих кинофестивалей, смотров-конкурсов",
     "fullBio":{
-      "date1": "11/2010 – Present",
-      "title1": "Title, Company",
-      "bio1": "Est incididunt sint eu minim dolore mollit velit velit commodo ex nula exercitation. Veniam velit adipisicing anim excepteur nostrud magna  nostrud aliqua dolor. Sunt aute est duis ut nula officia irure  reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem  est.",
-      "date2": "04/2009 – 11/2010",
-      "title2": "Title2, Company",
-      "bio2": "Est2 incididunt sint eu minim dolore mollit velit velit commodo ex nula exercitation. Veniam velit adipisicing anim excepteur nostrud magna  nostrud aliqua dolor. Sunt aute est duis ut nula officia irure  reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem  est.",
-      "date3": "11/2008 – 04/2009",
-      "title3": "Title3, Company",
-      "bio3": "Est3 incididunt sint eu minim dolore mollit velit velit commodo ex nula exercitation. Veni",
-      "date4": "08/2008 – 11/2008",
-      "title4": "Title4, Company",
-      "bio4": "Est4 incididunt sint eu minim dolore mollit velit velit commodo ex nula exercitation. Veni"
+      "date1": "2010 - Наше время",
+      "title1": "Часть 1, Спокойная жизнь",
+      "bio1": "В 2010 году присвоено звание ۫۫«Почётный гражданин Толочинского района». О кинолюбителе и краеведе Анатолии Шнейдере режиссёр Ольга Дашук создало полнометражный фильм «Кинолюбитель. Осенний сон», заснятый на киностудии «Беларусьфильм». Выпущена: «Земля над Друтью и Абалянкай».",
+
+      "date2": "1988 - 2010",
+      "title2": "Часть 2, В расцвете сил",
+      "bio2": ". В 1988 году посольством Аргентины в Москве приглашался для участия в 16-ом Всемирном кинофестивале широкоэкранного любительского кино в Буэнос-Айрес. Режиссёр фильмов: «Монолог драматурга», «1000-летие Друцка», «Родная сторона» и кинотрилогии «Болль майя – деревня», в которую вошли фильмы «Умирающая деревня», «Брошенная деревня», «Деревня, которой нет». На VIII Национальном кинофестивале трилогия удостоена диплома жюри «За гражданскую позицию, мужество и сострадание», приза «За лучший фильм VIII кінафестываля», а также диплома и приза оргкомитета фестываля «За творческий вклад в движение кинолюбительства в Республике Беларусь».",
+
+      "date3": "1965 - 1988",
+      "title3": "Часть 3, Работа на киностудии",
+      "bio3": "Из 1965 года – руководитель киностудии «Летопись» при Толочинском районном Доме культуры. Предоставлял Беларусь на 48-м Международном кинофестивале и 45-м конгрессе УНІКА-86. В газете «Пионер Беларуси» появилось его первое повествование «Встреча». Ему надлежать более за 300 публикаций по краеведению, истории, искусству и литературе в периодических изданиях Беларуси и около 100 киновидеолент. Один из авторов книг: «Память: историко-документальная хроника Толочинского района», «Друцк и Борисов», сборника литературных произведений «Земное притяжение».",
+
+      "date4": "1930 - 1965",
+      "title4": "Часть 4, Детство",
+      "bio4": "Родился 13 октября 1930 года в д. Поречье Толочинского района. Закончил Азярэцкую семилетку, Оршанский техникум железнодорожного транспорта (1951), отделение журналистики Минской высшей партийной школы. Работал железнодорожникам на Пермшчыне."
     },
-    "place":{"lat":53.2574801, "lng":26.3637479},
-    "video":"",
-    "photoTitles":["photo1"]
+    "place":{"lat" : 54.467285, "lng" : 29.735010},
+    "video":"https://youtu.be/Yn3D_pdRTNk",
+    "photoTitles":[".\\Photos\\Shneyder\\Shneyder-1.jpg, .\\Photos\\Shneyder\\Shneyder-2.jpg"]
   }
 ]
