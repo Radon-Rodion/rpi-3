@@ -8,59 +8,88 @@ import photo5 from '../Photos/pho5.jpg';
 import photo6 from '../Photos/pho6.jpg';
 
 import persons from "../Jsons/persons.json";
+import personsEng from "../Jsons/personsEng.json";
 
 export default class Info extends Component {
 
   state = {
+    persons: undefined,
     photo: undefined,
     name: undefined,
     years: undefined,
     bio: undefined
   }
 
-  constructor(props) {
-    super(props);
-
-
+  changeData(){
+    //console.log("5686t97f");
     switch(this.props.id){
       case "1":
-        this.state.name = persons[0].name;
-        this.state.years = persons[0].years;
-        this.state.bio = persons[0].bio;
+        this.state.name = this.state.persons[0].name;
+        this.state.years = this.state.persons[0].years;
+        this.state.bio = this.state.persons[0].bio;
         this.state.photo = photo1;
         break;
       case "2":
-        this.state.name = persons[1].name;
-        this.state.years = persons[1].years;
-        this.state.bio = persons[1].bio;
+        this.state.name = this.state.persons[1].name;
+        this.state.years = this.state.persons[1].years;
+        this.state.bio = this.state.persons[1].bio;
         this.state.photo = photo2;
         break;
       case "3":
-        this.state.name = persons[2].name;
-        this.state.years = persons[2].years;
-        this.state.bio = persons[2].bio;
+        this.state.name = this.state.persons[2].name;
+        this.state.years = this.state.persons[2].years;
+        this.state.bio = this.state.persons[2].bio;
         this.state.photo = photo3;
         break;
       case "5":
-        this.state.name = persons[4].name;
-        this.state.years = persons[4].years;
-        this.state.bio = persons[4].bio;
+        this.state.name = this.state.persons[4].name;
+        this.state.years = this.state.persons[4].years;
+        this.state.bio = this.state.persons[4].bio;
         this.state.photo = photo5;
         break;
       case "6":
-        this.state.name = persons[5].name;
-        this.state.years = persons[5].years;
-        this.state.bio = persons[5].bio;
+        this.state.name = this.state.persons[5].name;
+        this.state.years = this.state.persons[5].years;
+        this.state.bio = this.state.persons[5].bio;
         this.state.photo = photo6;
         break;
       default:
-        this.state.name = persons[3].name;
-        this.state.years = persons[3].years;
-        this.state.bio = persons[3].bio;
+        this.state.name = this.state.persons[3].name;
+        this.state.years = this.state.persons[3].years;
+        this.state.bio = this.state.persons[3].bio;
         this.state.photo = photo4;
         break;
     }
-    console.log(this.state);
+    //console.log(this.state.persons);
+  }
+
+  componentDidUpdate() {
+    if(this.props.langReverse){
+      if(this.props.lang == 1){
+        this.state.persons = persons;
+      } else if(this.props.lang == 0){
+        this.state.persons = personsEng;
+      }
+    } else {
+      if(this.props.lang == 0){
+        this.state.persons = persons;
+      } else if(this.props.lang == 1){
+        this.state.persons = personsEng;
+      }
+    }
+    this.changeData();
+  }
+
+  constructor(props) {
+    super(props);
+    if(this.props.lang == 1){
+      this.state.persons = persons;
+      //console.log(this.state.persons);
+    } else if(this.props.lang == 0){
+      this.state.persons = personsEng;
+      //console.log(this.props);
+    }
+    this.changeData();
   }
 
   render(){
@@ -77,7 +106,7 @@ export default class Info extends Component {
             <Row><h2>{this.state.name} {this.state.years}</h2></Row>
             <Row>{this.state.bio}</Row>
             { this.props.showLink &&
-              <Row><a href = {this.props.id}>View</a></Row>
+              <Row><a href = {this.props.id} >View</a></Row>
             }
           </Col>
         </Row>

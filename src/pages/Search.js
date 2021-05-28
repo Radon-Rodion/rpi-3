@@ -6,7 +6,7 @@ export default class SearchPage extends Component {
   render(){
     return (
       <div>
-      <Search/>
+      <Search lang={this.props.lang}/>
 
       </div>
     )

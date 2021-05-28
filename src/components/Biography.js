@@ -3,6 +3,10 @@ import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 export default class Biography extends Component {
 
+  componentDidUpdate() {
+    //console.log(this.props);
+  }
+
   render(){
     console.log("Here");
     console.log(this.props.biography.date1);

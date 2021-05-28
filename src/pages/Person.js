@@ -9,52 +9,85 @@ import Galery from "../components/Galery";
 
 import info from "../Jsons/info.json";
 import persons from "../Jsons/persons.json";
+import infoRus from "../Jsons/infoRus.json";
+import personsEng from "../Jsons/personsEng.json";
 
 export default class Header extends Component {
   state = {
-    data: undefined
+    data: undefined,
+    persons: undefined,
+    info: undefined
+  }
+
+  changeData(){
+    switch(this.props.id){
+      case "1":
+        this.state.data = this.state.persons[0];
+        break;
+      case "2":
+      this.state.data = this.state.persons[1];
+        break;
+      case "3":
+      this.state.data = this.state.persons[2];
+        break;
+      case "5":
+      this.state.data = this.state.persons[4];
+        break;
+      case "6":
+        this.state.data = this.state.persons[5];
+        break;
+      default:
+      this.state.data = this.state.persons[3];
+        break;
+    }
+  }
+
+  componentWillReceiveProps(props) {
+    if(this.props.lang == 0){
+      this.state.info = infoRus;
+      this.state.persons = persons;
+    } else if(this.props.lang == 1){
+      this.state.info = info;
+      this.state.persons = personsEng;
+    }
+    this.changeData();
+    //console.log(this.state.data);
   }
 
   constructor(props) {
     super(props);
-
-
-    switch(this.props.id){
-      case "1":
-        this.state.data = persons[0];
-        break;
-      case "2":
-      this.state.data = persons[1];
-        break;
-      case "3":
-      this.state.data = persons[2];
-        break;
-      default:
-      this.state.data = persons[3];
-        break;
+    if(this.props.lang == 1){
+      this.state.info = infoRus;
+      this.state.persons = persons;
+    } else if(this.props.lang == 0){
+      this.state.info = info;
+      this.state.persons = personsEng;
     }
-    console.log(this.state.data);
+
+    this.changeData();
+   console.log(this.state.data);
   }
 
   render(){
     return (
       <div>
-        <Info id = {this.props.id}/>
-        <Abzats title = {info.biography} inside =
+        <Info id = {this.props.id} lang={this.props.lang}/>
+        <Abzats title = {this.state.info.biography} inside =
           <Biography biography = {this.state.data.fullBio}/>
         />
-        <Abzats title = {info.galery} inside =
+        <Abzats title = {this.state.info.galery} inside =
           <Galery id = {this.props.id}/>
         />
-        <Abzats title = {info.map} inside =
+        <Abzats title = {this.state.info.map} inside =
           <Map center = {this.state.data.place}/>
         />
-        <Abzats title = {info.video} inside =
-          <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
+
+        <Abzats title = {this.state.info.video} inside =
+          <iframe src= {this.state.data.video}
           style = {{position: 'absolute', width: '100%', height: '400px'}}
-          allow='autoplay; encrypted-media'
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-          title='video'/>
+           title="YouTube video player"/>
         />
       </div>
     )

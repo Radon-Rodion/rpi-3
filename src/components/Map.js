@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import GoogleMapReact from 'google-map-react';
+import logo from './logo.png';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-export default class Abzats extends Component {
+export default class Map extends Component {
   static defaultProps = {
     center: {
       lat: 53.9,
@@ -24,8 +25,8 @@ export default class Abzats extends Component {
           <AnyReactComponent
             lat={this.props.center.lat}
             lng={this.props.center.lng}
-            text="Main place"
-          />
+            text="Here"
+          ><img src = {logo}/></AnyReactComponent>
         </GoogleMapReact>
       </div>
     )

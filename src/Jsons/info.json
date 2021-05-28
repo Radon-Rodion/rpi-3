@@ -2,6 +2,10 @@
   "home": "Home",
   "persons": "Persons",
   "search": "Search Person",
+  "language": "Language",
+
+  "lang1": "English",
+  "lang2": "Русский",
 
   "name1": "Vladimir Alexandrovich Orlov",
   "name2": "Maisey Zalmanavich Beray",
